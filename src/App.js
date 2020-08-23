@@ -1,24 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Header from "./Header/Header";
+import Sidebar from "./Sidebar/Sidebar";
+import Content from "./Content/Content";
 
 function App() {
+  const [drawer, setdrawer] = React.useState(true);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Sidebar
+        style={{
+          marginBottom: "-5000px",
+        }}
+        className="sidebar"
+        drawer={drawer}
+      />
+      <div className="content__holder">
+        <Header setdrawer={setdrawer} />
+        <Content />
+      </div>
+      {/* Content */}
     </div>
   );
 }

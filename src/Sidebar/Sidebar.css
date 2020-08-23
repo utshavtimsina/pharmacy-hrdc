@@ -1,0 +1,25 @@
+.Sidebar {
+  border-right: 1px solid #a3a2a2;
+  background-color: var(--hrdc-background);
+  color: var(--hrdc-text);
+  min-height: 100vh !important;
+}
+.dashboard__header {
+  display: flex;
+  height: 80px !important;
+  align-items: center;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+.dashboard__icon {
+  font-size: 60px !important;
+}
+.dashboard__header > h3 {
+  font-weight: bold;
+  font-size: 20px;
+}
+.dashboard__header > h3 > span {
+  font-size: 12px;
+  font-weight: 400;
+}

@@ -1,0 +1,64 @@
+.SidebarComponent {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  border-radius: 30px;
+  font-weight: 900;
+}
+.SidebarComponent > h3 {
+  margin-left: 10px;
+}
+.SidebarComponent:hover {
+  background-color: var(--hrdc-color);
+  cursor: pointer;
+}
+.sidebar__active {
+  color: var(--hrdc-imptext);
+  background-color: var(--hrdc-color);
+}
+.sidebar__component {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+.sidebar__subcomponent {
+  flex: 1;
+  padding: 10px;
+  background-color: var(--hrdc-imptext) !important;
+  border-radius: 30px !important;
+}
+.sidebar__subcomponent:hover {
+  cursor: pointer;
+}
+
+.sidebar__subcomponent > * {
+  text-decoration: none !important;
+}
+.sidebar__subcomponent > * > h3 {
+  padding: 20px;
+  border-bottom: 1px solid var(--hrdc-imptext);
+}
+.sidebar__subcomponent > * > h3:hover {
+  background-color: var(--hrdc-color) !important;
+  border-radius: 30px;
+  transition: border 1s ease-in-out;
+  color: var(--hrdc-imptext) !important;
+}
+.sidebar__component > h6 {
+  font-size: 10px;
+  justify-content: center;
+  text-align: center !important;
+}
+.sidebar__subcomponent > h3 {
+  font-size: 13px;
+  text-align: center;
+  border-bottom: 1px solid var(--hrdc-background);
+}
+.sidebar__subcomponent > h6 {
+  font-size: 9px;
+  padding: 10px;
+  justify-content: center;
+  text-align: center !important;
+  border-bottom: 1px solid var(--hrdc-background);
+}

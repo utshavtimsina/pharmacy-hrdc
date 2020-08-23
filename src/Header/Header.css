@@ -1,0 +1,33 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  background-color: var(--hrdc-background);
+  color: var(--hrdc-text);
+}
+.header__left {
+  display: flex;
+  align-items: center;
+}
+.header__left > h1 {
+  margin-left: 20px !important;
+}
+.header__icon {
+  margin-left: 10px;
+  font-size: 40px !important;
+  color: var(--hrdc-text);
+}
+
+.header__iconbutton {
+  margin-right: 20px;
+}
+.header__menu {
+  background-color: var(--hrdc-background) !important;
+  color: var(--hrdc-text) !important;
+}
+.header__menu:hover {
+  background-color: var(--hrdc-color) !important;
+  color: var(--hrdc-imptext) !important;
+}

@@ -1,0 +1,36 @@
+.content__header > h1 {
+  color: var(--hrdc-content);
+}
+.hiddenCategory {
+  visibility: hidden;
+}
+
+.categoryupdate__liFlex {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.categoryupdate__liFlex > li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  border-radius: 30px;
+  margin: 10px;
+}
+.categoryupdate__liFlex > li:hover {
+  color: var(--hrdc-imptext);
+}
+.categoryupdate__liFlex > li > * {
+  color: var(--hrdc-content);
+  border: 1px solid var(--hrdc-content);
+}
+.updateCategory__editIcon {
+  color: var(--hrdc-content) !important;
+  border: 1px solid var(--hrdc-content) !important;
+}
+.secoundColumn__inside {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,31 @@
+.AddNew {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.floating__button {
+  position: absolute;
+  top: 90px;
+  left: 250px;
+  z-index: 999;
+}
+.addNew__floatingButton {
+  padding: 10px;
+}
+.addNew__floatingButton
+  > .MuiFab-root
+  > .MuiFab-label
+  > .MuiSpeedDialIcon-root {
+  color: white;
+}
+/* .addNew__floatingButton > * > .MuiTouchRipple-root {
+  background-color: var(--hrdc-content);
+} */
+
+/* .addNew__floatingButtonIcon > .MuiTouchRipple-root {
+  background-color: var(--hrdc-content);
+   
+} */
+.addNew__floatingButtonIcon > .MuiFab-label > .MuiSvgIcon-root {
+  color: red;
+}

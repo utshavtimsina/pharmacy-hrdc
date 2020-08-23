@@ -1,0 +1,85 @@
+.content__table {
+  margin-top: 10vh;
+  max-width: 80vw !important;
+  border-radius: 2px solid var(--hrdc-content) !important;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  flex: 1;
+}
+.content__table > .content__header {
+  min-height: 60vh !important;
+  padding: 20px;
+  max-width: 80vw;
+  border-radius: 20px !important;
+  border: 1px solid var(--hrdc-content);
+  border-left: 5px solid var(--hrdc-content);
+  box-shadow: 10px 10px 5px var(--hrdc-background) !important;
+  background-color: var(--hrdc-paper);
+}
+.searchIcon {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--hrdc-content) !important;
+  margin-left: 60%;
+  background-color: var(--hrdc-background) !important;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.searchIcon > input {
+  flex: 1;
+  padding: 10px;
+  font-size: 25px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  color: var(--hrdc-background) !important;
+}
+.searchIcon > .MuiSvgIcon-root {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 30px;
+  color: var(--hrdc-text) !important;
+}
+
+.patient__Header > * {
+  font-size: 20px !important;
+  font-weight: 600 !important;
+  color: var(--hrdc-content) !important;
+  border-bottom: 1px solid var(--hrdc-content) !important;
+}
+.patient__details > * {
+  font-size: 20px !important;
+  border-bottom: 1px solid var(--hrdc-content) !important;
+  color: var(--hrdc-content) !important;
+  font-weight: 500 !important;
+}
+.patient__details:hover {
+  color: var(--hrdc-text) !important;
+  background-color: var(--hrdc-background) !important;
+  cursor: pointer;
+}
+.patient__details:hover > * {
+  color: var(--hrdc-text) !important;
+}
+.patient__details:hover > * > * {
+  color: var(--hrdc-text) !important;
+}
+.patient__details > * > * {
+  border-bottom: 2px solid var(--hrdc-content) !important;
+  margin-left: 5px !important;
+  color: var(--hrdc-content) !important;
+}
+.slider {
+  position: absolute;
+  min-height: 60vh !important;
+  padding: 20px;
+  width: 80vw;
+  border-radius: 20px !important;
+  border: 1px solid var(--hrdc-content);
+  border-left: 5px solid var(--hrdc-content);
+  box-shadow: 10px 10px 5px var(--hrdc-background) !important;
+  background-color: var(--hrdc-paper) !important;
+}

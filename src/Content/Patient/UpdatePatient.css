@@ -1,0 +1,85 @@
+.UpdatePatient {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  color: var(--hrdc-content) !important;
+}
+.UpdatePatient__Icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--hrdc-content) !important;
+  border-bottom: 1px solid var(--hrdc-content);
+}
+.UpdatePatient__Icon > * {
+  color: var(--hrdc-content) !important;
+}
+.updatecontent__container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  border-bottom: 1px solid var(--hrdc-content);
+}
+
+.updatePatient__inputField {
+  border: 1px solid var(--hrdc-content);
+  background-color: var(--hrdc-paper);
+  color: var(--hrdc-content) !important;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+  outline: none !important;
+}
+.firstColoum__updatePatient {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  color: var(--hrdc-content) !important;
+  border: 1px solid var(--hrdc-content);
+  border-radius: 30px;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+.secondColoum__updatePatient {
+  margin: 10px;
+  padding: 10px;
+  color: var(--hrdc-content) !important;
+  border: 1px solid var(--hrdc-content);
+  border-radius: 30px;
+}
+.secoundColumn__inside {
+  padding: 20px;
+  color: var(--hrdc-content) !important;
+}
+.secoundColumn__inside > * {
+  padding: 10px;
+  color: var(--hrdc-content) !important;
+}
+.firstColoum__updatePatient > * {
+  padding: 10px;
+}
+.updatePatient__button {
+  background-color: var(--hrdc-card) !important;
+  border: 1px solid var(--hrdc-content) !important;
+  margin-top: 10px !important;
+  font-weight: 900 !important;
+  color: var(--hrdc-content) !important;
+  border-radius: 20px !important;
+  padding: 10px !important;
+  min-width: 600px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.updatePatient__cross {
+  background-color: var(--hrdc-card) !important;
+  border: 1px solid var(--hrdc-content) !important;
+
+  font-weight: 900 !important;
+  color: var(--hrdc-content) !important;
+  border-radius: 20px !important;
+  color: var(--hrdc-content) !important;
+}
+.updatePatient__cross > * > * {
+  font-size: 40px !important;
+}
